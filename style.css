@@ -22,35 +22,17 @@
       background-color: #808D96;
   }
   
-  #minus {
-      background: #7E5F71;
-  }
-  
-  #plus {
-      background: #7E5F71;
-  }
-  
-  #division {
-      background: #7E5F71;
-  }
-  
-  #multi {
-      background: #7E5F71;
-  }
-  
-  #remove {
-      background: #7E5F71;
-  }
-  
-  #equal {
-      padding: 20px;
-      background: #7E5F71
-  }
-  
   .button {
       padding: 20px;
       border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  .number {
       background: #DAFFD0;
       background: -webkit-linear-gradient(top left, #DAFFD0, #154667);
-      cursor: pointer;
+  }
+  
+  .action {
+      background: #7E5F71
   }
