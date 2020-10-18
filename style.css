@@ -1,38 +1,76 @@
-  @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
-  body {
-      font-family: 'Architects Daughter', cursive;
-      font-size: 40px;
-  }
-  
-  table {
-      width: 400px;
-      height: 600px;
-      text-align: center;
-      margin: 0 auto;
-      border-spacing: 5px 7px;
-  }
-  
-  td {
-      border: 4px outset black;
-  }
-  
-  #output {
-      padding: 20px;
-      border-radius: 5px;
-      background-color: #808D96;
-  }
-  
-  .button {
-      padding: 20px;
-      border-radius: 5px;
-      cursor: pointer;
-  }
-  
-  .number {
-      background: #DAFFD0;
-      background: -webkit-linear-gradient(top left, #DAFFD0, #154667);
-  }
-  
-  .action {
-      background: #7E5F71
-  }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@media (max-width: 600px) {
+    body {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 40px;
+    }
+    table {
+        background-color: #000000;
+        max-width: 450px;
+        border-radius: 10px;
+        text-align: center;
+        margin: 0 auto;
+        border-spacing: 10px 7px;
+    }
+    #output {
+        padding: 50px;
+        border-radius: 5px;
+        background-color: #000000;
+        color: white;
+    }
+    .button {
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        border-radius: 50%;
+        cursor: pointer;
+        color: white;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .number {
+        background: #DAFFD0;
+        background: #333233
+    }
+    .action {
+        background: #ff9e0a
+    }
+}
+
+@media (min-width: 600px) {
+    body {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 40px;
+    }
+    table {
+        background-color: #000000;
+        width: 450px;
+        border-radius: 10px;
+        text-align: center;
+        margin: 0 auto;
+        border-spacing: 10px 7px;
+    }
+    #output {
+        padding: 50px;
+        border-radius: 5px;
+        background-color: #000000;
+        color: white;
+    }
+    .button {
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        border-radius: 50%;
+        cursor: pointer;
+        color: white;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .number {
+        background: #DAFFD0;
+        background: #333233
+    }
+    .action {
+        background: #ff9e0a
+    }
+}
