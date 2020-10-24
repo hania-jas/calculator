@@ -1,47 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-@media (max-width: 600px) {
-    body {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 40px;
-    }
-    table {
-        background-color: #000000;
-        max-width: 450px;
-        border-radius: 10px;
-        text-align: center;
-        margin: 0 auto;
-        border-spacing: 10px 7px;
-    }
-    #output {
-        padding: 50px;
-        border-radius: 5px;
-        background-color: #000000;
-        color: white;
-    }
-    .button {
-        width: 20px;
-        height: 20px;
-        padding: 20px;
-        border-radius: 50%;
-        cursor: pointer;
-        color: white;
-        text-align: center;
-        margin: 0 auto;
-    }
-    .number {
-        background: #DAFFD0;
-        background: #333233
-    }
-    .action {
-        background: #ff9e0a
-    }
+@font-face {
+    font-family: 'Montserrat';
+    src: url(montserrat/Montserrat-Thin.ttf);
+}
+
+body {
+    font-family: 'Montserrat';
+    font-size: 40px;
+}
+
+#output {
+    padding: 50px;
+    border-radius: 5px;
+    background-color: #000000;
+    color: white;
+}
+
+.button {
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+table {
+    background-color: #000000;
+    max-width: 450px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    border-spacing: 10px 7px;
+}
+
+.number {
+    background: #DAFFD0;
+    background: #333233
+}
+
+.action {
+    background: #ff9e0a
 }
 
 @media (min-width: 600px) {
-    body {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 40px;
-    }
     table {
         background-color: #000000;
         width: 450px;
@@ -49,28 +52,5 @@
         text-align: center;
         margin: 0 auto;
         border-spacing: 10px 7px;
-    }
-    #output {
-        padding: 50px;
-        border-radius: 5px;
-        background-color: #000000;
-        color: white;
-    }
-    .button {
-        width: 20px;
-        height: 20px;
-        padding: 20px;
-        border-radius: 50%;
-        cursor: pointer;
-        color: white;
-        text-align: center;
-        margin: 0 auto;
-    }
-    .number {
-        background: #DAFFD0;
-        background: #333233
-    }
-    .action {
-        background: #ff9e0a
     }
 }
