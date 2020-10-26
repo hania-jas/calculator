@@ -1,7 +1,7 @@
-let button = document.querySelectorAll('.button');
-let output = document.getElementById('output');
+const buttons = document.querySelectorAll('.button');
+const output = document.getElementById('output');
 
-const onScreen = (e) => {
+const evaluateScreenDisplay = (e) => {
 
     let clickedButton = e.target;
     let clickedValue = clickedButton.innerText;
@@ -20,4 +20,4 @@ const cleaning = () => {
     output.innerHTML = "";
 }
 
-button.forEach(button => { button.addEventListener('click', onScreen) })
+buttons.forEach(button => { button.addEventListener('click', evaluateScreenDisplay) })
