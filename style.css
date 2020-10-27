@@ -28,7 +28,6 @@ body {
 }
 
 .number {
-    background: #DAFFD0;
     background: #333233
 }
 
@@ -36,36 +35,23 @@ body {
     background: #ff9e0a
 }
 
-@media (min-width: 450px) {
-    table {
-        background-color: #000000;
-        width: 450px;
-        border-radius: 10px;
-        text-align: center;
-        margin: 0 auto;
-        border-spacing: 10px 7px;
-        table-layout: fixed;
-    }
+table {
+    background-color: #000000;
+    width: 450px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    border-spacing: 10px 7px;
+    table-layout: fixed;
 }
 
 @media (max-width: 450px) {
     table {
-        background-color: #000000;
         width: 300px;
-        border-radius: 10px;
-        text-align: center;
-        margin: 0 auto;
-        border-spacing: 10px 7px;
-        table-layout: fixed;
     }
     .button {
         width: 10px;
         height: 10px;
         padding: 10px;
-        border-radius: 50%;
-        cursor: pointer;
-        color: white;
-        text-align: center;
-        margin: 0 auto;
     }
 }
