@@ -37,6 +37,11 @@ tr {
     color: white;
 }
 
+#equal {
+    width: 170px;
+    border-radius: 120px;
+}
+
 .number {
     background: #333233
 }
@@ -66,5 +71,8 @@ table {
     }
     tr {
         width: 260px;
+    }
+    #equal {
+        width: 125px;
     }
 }
