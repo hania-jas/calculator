@@ -30,10 +30,17 @@ const evaluateScreenDisplay = (e) => {
     }
 
 
-
+    changeFontSize(textFromScreen)
 
 }
 
+const changeFontSize = textFromScreen => {
+    if (textFromScreen.length >= 30) {
+        output.classList.add('changeFont');
+    } else {
+        output.classList.remove('changeFont');
+    }
+}
 
 function cleaning() {
     output.innerHTML = "";

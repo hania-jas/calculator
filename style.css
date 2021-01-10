@@ -14,6 +14,12 @@ body {
     background-color: #000000;
     color: white;
     word-break: break-all;
+    height: 145px;
+}
+
+.changeFont {
+    font-size: 20px;
+    overflow: hidden;
 }
 
 tr {
@@ -74,5 +80,12 @@ table {
     }
     #equal {
         width: 125px;
+    }
+    #output {
+        height: 125px;
+        font-size: 30px;
+    }
+    .changeFont {
+        font-size: 20px !important;
     }
 }
